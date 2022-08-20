@@ -61,7 +61,6 @@ export default class App extends Component {
           <br></br>
           LOCATION NOT FOUND
         </p>
-        <hr />
         <div className="d-flex justify-content-end">
           <Button onClick={this.handleErr} variant="outline-primary">
             Try Again!
