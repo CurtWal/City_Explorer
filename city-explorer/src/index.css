@@ -6,35 +6,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 .maps{
-  margin-left: 465px;
+  margin-left: 10px;
   margin-bottom: 25px;
   border-radius: 5px;
-  box-shadow: 10px 10px 10px 10px black;
+  box-shadow: 3px 3px 3px 3px white;
 }
 
-
-h1{
-  display: flex;
-  justify-content: center;
-  margin-left: 500px;
-  background-color: aliceblue;
-  width: 400px;
+div{
+  background-color: black;
 }
-
-.form-data{
-  background-color: aliceblue;
+div.card-body{
+  background-color: grey;
 }
-
-p{
-  background-color: aliceblue;
+div.card-title.h5{
+  color: white;
+  background-color: grey;
 }
-
-.footer{
-  background-color: aliceblue;
+div.card-subtitle.h6{
+  background-color: grey;
 }
-
+div.carousel-indicators{
+  background-color: grey;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+html{
+  background-color: black;
 }
