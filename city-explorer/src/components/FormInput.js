@@ -54,7 +54,7 @@ export default class FormInput extends Component {
     const movie = await axios
       .get(`${process.env.REACT_APP_URL_KEY}/movie?city=${city}`)
       .catch((err) => console.log("error with films", err));
-    this.setState({ movies: movie.data, });
+    this.setState({ movies: movie.data });
   };
   render() {
     return (
